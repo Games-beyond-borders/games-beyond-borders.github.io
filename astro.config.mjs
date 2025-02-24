@@ -6,7 +6,7 @@ import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://gamesbeyondborders.info',
+  site: 'https://www.gamesbeyondborders.info',
   integrations: [
     mdx(),
     sitemap(),
