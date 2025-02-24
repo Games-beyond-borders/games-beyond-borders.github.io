@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gamesbeyondborders.info/sitemap-index.xml
