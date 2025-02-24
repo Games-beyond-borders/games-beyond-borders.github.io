@@ -55,7 +55,7 @@ const siteConfig: SiteConfig = {
     },
     {
       text: 'Mods',
-      href: '/mods'
+      href: 'https://games-beyond-borders.github.io/mods'
     },
     {
       text: 'About',
