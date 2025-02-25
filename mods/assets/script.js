@@ -81,10 +81,10 @@ shareableImages.forEach(image => {
     const menu = document.createElement('div');
     menu.classList.add('menu');
     menu.innerHTML = `
-      <a href="#" onclick="copyUrl(event, 'https://gamesbeyondborders.netlify.app/mods/index.html?query=${encodeURIComponent(image.alt)}');">คัดลอกลิงก์ม็อด</a>
-      <a href="#" onclick="shareByEmail(event, 'https://gamesbeyondborders.netlify.app/mods/index.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แบ่งปันทางอีเมล</a>
-      <a href="#" onclick="shareOnFacebook(event, 'https://gamesbeyondborders.netlify.app/mods/index.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แชร์บน Facebook</a>
-      <a href="#" onclick="shareOnTwitter(event, 'https://gamesbeyondborders.netlify.app/mods/index.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แชร์บนทวิตเตอร์</a>
+      <a href="#" onclick="copyUrl(event, 'https://www.gamesbeyondborders.info/mods/index.html?query=${encodeURIComponent(image.alt)}');">คัดลอกลิงก์ม็อด</a>
+      <a href="#" onclick="shareByEmail(event, 'https://www.gamesbeyondborders.info/mods/index.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แบ่งปันทางอีเมล</a>
+      <a href="#" onclick="shareOnFacebook(event, 'https://www.gamesbeyondborders.info/mods/index.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แชร์บน Facebook</a>
+      <a href="#" onclick="shareOnTwitter(event, 'https://www.gamesbeyondborders.info/mods/index.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แชร์บนทวิตเตอร์</a>
     `;
     menu.style.top = `${event.pageY}px`;
     menu.style.left = `${event.pageX}px`;
